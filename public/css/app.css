@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header .my-container {
+  justify-content: space-between;
+  align-items: center;
+}
+.header .my-container #logo-img {
+  height: 70px;
+  margin: 0.8rem 0;
+}
+.header .my-container #logo-img img {
+  height: 100%;
+}
+.header .my-container ul {
+  display: flex;
+}
+.header .my-container ul li {
+  list-style: none;
+  margin: 0 0.7rem;
+}
+.header .my-container ul li .active {
+  border-bottom: 4px solid rgb(56, 128, 241);
+  color: rgb(56, 128, 241);
+  padding-bottom: 33px;
+}
+.header .my-container ul li a {
+  text-decoration: none;
+  color: black;
+}

@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $listNavbar = config('listNavbar');
+    return view('home',["listNavbar" => $listNavbar]);
 });

@@ -1,1 +1,30 @@
 //
+@import "partials/variables";
+@import "partials/common";
+.header .my-container{
+  justify-content:space-between;
+  align-items: center;
+  #logo-img{
+    height: 70px;
+    margin: .8rem 0;
+    img{
+      height: 100%;
+    }
+  }
+  ul{
+    display: flex;
+    li{
+      list-style: none;
+      margin: 0 .7rem;
+      .active{
+        border-bottom: 4px solid $colorPrimary;
+        color: $colorPrimary;
+        padding-bottom:33px ;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
