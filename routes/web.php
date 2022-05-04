@@ -15,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $listNavbar = config('listNavbar');
-    return view('home',["listNavbar" => $listNavbar]);
+    $comics = config('comics');
+    $listMain = config('listMain');
+    return view('guest.products')
+    ->with(["listNavbar" => $listNavbar])
+    ->with(["comics" => $comics])
+    ->with(["listMain" => $listMain]);
 });
