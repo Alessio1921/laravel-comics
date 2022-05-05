@@ -4,7 +4,6 @@
     <div class="main-top">
       <div class="my-container">
         <div class="info">
-          {{-- @dump($comic) --}}
           <img src="{{$comic["thumb"]}}" alt="" >
         </div>
       </div>
@@ -87,5 +86,4 @@
       </div>
       </div>
   </div> 
-  {{-- @dump($comic) --}}
 @endsection

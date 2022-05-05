@@ -77,6 +77,10 @@ div.jumbotron{
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      a{
+        color: white;
+        text-decoration: none;
+      }
       .info{
         position: absolute;
         bottom: 96%;
@@ -142,7 +146,7 @@ div.jumbotron{
     object-position: top;
   }
   p{
-    font-size: .7rem;
+    font-size: .8rem;
   }
 }
 // footer

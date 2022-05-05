@@ -97,6 +97,10 @@ div.jumbotron {
   justify-content: center;
   flex-direction: column;
 }
+.content .main-top .my-container a {
+  color: white;
+  text-decoration: none;
+}
 .content .main-top .my-container .info {
   position: absolute;
   bottom: 96%;
@@ -163,7 +167,7 @@ div.jumbotron {
      object-position: top;
 }
 .card p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .footer-top {

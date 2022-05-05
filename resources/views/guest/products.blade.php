@@ -5,11 +5,13 @@
       <div class="my-container">
         <div class="info">current series</div>
         <div class="container-card">
-          @foreach ($comics as $comic)
+          @foreach ($comics as $index=>$comic)
+          <a href="{{route('product',['index' => $index])}}">
             <div class="card">
               <img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}">
               <p>{{$comic["series"]}}</p>
             </div>
+          </a>
           @endforeach
         </div>
         <button>Load More</button>  
