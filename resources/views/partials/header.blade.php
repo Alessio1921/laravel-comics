@@ -13,11 +13,9 @@
       <nav>
         <ul>
           @foreach ($listNavbar as $item)  
-            @if ($item["active"]==true)
-              <li class="active"><a class="active" href="{{$item["url"]}}">{{$item["name"]}}</a></li>   
-            @else 
-              <li><a href="{{$item["url"]}}">{{$item["name"]}}</a></li>   
-            @endif
+              <li class="{{ Route::currentRouteName() == $item['name'] ? 'active' : ''}}">
+                <a class="{{ Route::currentRouteName() == $item['name'] ? 'active' : ''}}" href="{{route($item["name"])}}">{{$item["name"]}}</a>
+              </li>   
           @endforeach
         </ul>
       </nav>

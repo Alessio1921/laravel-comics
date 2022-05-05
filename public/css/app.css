@@ -67,7 +67,7 @@ header .my-container ul li {
 header .my-container ul li .active {
   border-bottom: 4px solid rgb(56, 128, 241);
   color: rgb(56, 128, 241);
-  padding-bottom: 33px;
+  padding-bottom: 35px;
 }
 header .my-container ul li a {
   text-decoration: none;
