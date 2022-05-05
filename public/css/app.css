@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.upper {
+  text-transform: uppercase;
+}
+
 header {
   color: rgb(116, 119, 115);
 }
@@ -86,17 +90,17 @@ div.jumbotron {
   padding-top: 1.5rem;
   background-color: rgb(29, 28, 28);
   padding-bottom: 1rem;
+  position: relative;
 }
 .content .main-top .my-container {
-  position: relative;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .content .main-top .my-container .info {
   position: absolute;
-  bottom: 101%;
-  left: 0;
+  bottom: 96%;
+  left: 14%;
   background-color: rgb(56, 128, 241);
   padding: 7px;
   font-size: 1.2rem;
@@ -234,4 +238,127 @@ div.jumbotron {
 }
 .footer-bottom .my-container .social img {
   margin-left: 10px;
+}
+
+.single-content {
+  color: white;
+}
+.single-content .main-top {
+  background-color: rgb(56, 128, 241);
+  height: 60px;
+  position: relative;
+}
+.single-content .main-top .my-container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.single-content .main-top .my-container .info {
+  position: absolute;
+  bottom: 30%;
+  left: 13%;
+  background-color: white;
+  padding: 7px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.single-content .main-center {
+  padding: 50px 0;
+  background-color: white;
+}
+.single-content .main-center .my-container {
+  height: 100%;
+  color: black;
+}
+.single-content .main-center .my-container h1 {
+  color: black;
+}
+.single-content .main-center .my-container .main-left span {
+  color: white;
+}
+.single-content .main-center .my-container .main-left .availability {
+  display: flex;
+}
+.single-content .main-center .my-container .main-left .left {
+  color: rgb(188, 239, 144);
+  padding: 1rem;
+  background-color: rgb(112, 184, 100);
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  border-right: 0.5px solid black;
+}
+.single-content .main-center .my-container .main-left .left div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.single-content .main-center .my-container .main-left .right {
+  background-color: rgb(112, 184, 100);
+  padding: 1rem;
+}
+.single-content .main-center .my-container .main-left p.description {
+  color: gray;
+  padding-top: 1rem;
+}
+.single-content .main-center .my-container .main-right {
+  padding-left: 2rem;
+}
+.single-content .main-center .my-container .main-right p {
+  text-align: end;
+}
+.single-content .main-bottom {
+  background-color: rgb(246, 246, 246);
+  color: black;
+  padding-top: 1rem;
+}
+.single-content .main-bottom h2 {
+  border-bottom: gray 1px solid;
+  padding-bottom: 1rem;
+}
+.single-content .main-bottom .left,
+.single-content .main-bottom .right {
+  width: 50%;
+}
+.single-content .main-bottom .left {
+  margin-right: 3rem;
+}
+.single-content .main-bottom .description {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 0.5rem;
+}
+.single-content .main-bottom .description .title {
+  width: 15%;
+}
+.single-content .main-bottom .description .content {
+  width: 60%;
+  color: rgb(56, 128, 241);
+}
+.single-content .pre-footer {
+  margin-top: 4rem;
+  height: 100px;
+  color: gray;
+}
+.single-content .pre-footer .my-container {
+  height: 100%;
+}
+.single-content .pre-footer .my-container .item {
+  height: 100%;
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.3px solid gray;
+  width: 180px;
+}
+.single-content .pre-footer .my-container .item img {
+  margin-right: 1rem;
+  height: 35px;
+}
+.single-content .pre-footer .my-container .item p {
+  align-self: self-start;
+  font-size: 0.8rem;
 }

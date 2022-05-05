@@ -72,15 +72,15 @@ div.jumbotron{
     padding-top: 1.5rem;
     background-color: rgb(29,28,28);
     padding-bottom: 1rem;
+    position: relative;
     .my-container{
-      position: relative;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       .info{
         position: absolute;
-        bottom: 101%;
-        left: 0;
+        bottom: 96%;
+        left: 14%;
         background-color: $colorPrimary;
         padding: 7px;
         font-size: 1.2rem;
@@ -215,6 +215,133 @@ div.jumbotron{
       align-items: center;
       img{
         margin-left: 10px;
+      }
+    }
+  }
+}
+// single product
+.single-content{
+  color: white;
+  .main-top{
+    background-color: $colorPrimary;
+    height: 60px;
+    position: relative;
+    .my-container{
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .info{
+        position: absolute;
+        bottom: 30%;
+        left: 13%;
+        background-color: white;
+        padding: 7px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .main-center{
+    padding: 50px 0;
+    background-color: white;
+    // height: 100px;
+    .my-container {
+      height: 100%;
+      color: black;
+      h1{
+        color: black;
+      }
+      .main-left{
+        span{
+          color: white;
+        }
+        .availability{
+          display: flex;
+        }
+        .left{
+          color: rgb(188,239,144);
+          padding: 1rem;
+          background-color: rgb(112,184,100);
+          display: flex;
+          justify-content: space-between;
+          width: 70%;
+          border-right: .5px solid black;
+          div{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+          }
+        }
+        .right{
+          background-color: rgb(112,184,100);
+          padding: 1rem;
+        }
+        p.description{
+          color: gray;
+          padding-top: 1rem;
+        }
+      }
+      .main-right{
+        padding-left: 2rem;
+        p{
+          text-align: end;
+        }
+      }
+    }
+  }
+  .main-bottom{
+    background-color: rgb(246,246,246);
+    color: black;
+    padding-top: 1rem ;
+    h2{
+      border-bottom: gray 1px solid;
+      padding-bottom: 1rem;
+    }
+    .left,
+    .right{
+      width: 50%;
+    }
+    .left{
+      margin-right: 3rem;
+    }
+    .description{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid gray;
+      padding: .5rem;
+      .title{
+        width: 15%
+      }
+      .content{
+        width: 60%;
+        color: $colorPrimary;
+      }
+    }
+  }
+  .pre-footer{
+    margin-top: 4rem;
+    height: 100px;
+    color: gray;
+    .my-container {
+      height: 100%;
+      .item{
+        height: 100%;
+        display: flex;
+        padding-top: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        border: .3px solid gray;
+        width: 180px;
+        img{
+          margin-right: 1rem;
+          height: 35px;
+          // filter: sepia(1); 
+        }
+        p{
+          align-self: self-start;
+          font-size: .8rem;
+        }
       }
     }
   }
