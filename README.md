@@ -1,3 +1,12 @@
+The data of the comic cards is taken from the comics.php file in the config folder.
+View where a single comic is shown.
+<img width="1440" alt="Schermata 2022-06-03 alle 16 17 03" src="https://user-images.githubusercontent.com/95136261/171880968-24f8a291-8713-4938-9195-d29b1c4feeeb.png">
+<img width="1440" alt="Schermata 2022-06-03 alle 16 17 11" src="https://user-images.githubusercontent.com/95136261/171880981-ecbe2784-227d-4301-bfa0-36fe5b5d3cb2.png">
+<img width="1440" alt="Schermata 2022-06-03 alle 16 17 56" src="https://user-images.githubusercontent.com/95136261/171880995-49198a37-7a20-4cf6-b6e3-8bc803e17d4e.png">
+<img width="1440" alt="Schermata 2022-06-03 alle 16 24 33 2" src="https://user-images.githubusercontent.com/95136261/171881010-ea8a9445-123c-4e06-8fed-5f6822b204e4.png">
+<img width="1440" alt="Schermata 2022-06-03 alle 16 24 33" src="https://user-images.githubusercontent.com/95136261/171881020-8c0c9c90-77f0-48cf-bcb3-f8b70a43a5e7.png">
+<img width="1439" alt="Schermata 2022-06-03 alle 16 24 46" src="https://user-images.githubusercontent.com/95136261/171881031-17d8486b-fefd-4175-99e9-d46da2521d70.png">
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
